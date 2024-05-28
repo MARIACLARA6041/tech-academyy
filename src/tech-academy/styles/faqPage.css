@@ -1,0 +1,42 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#perguntas-frequentes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - 70px);
+  background-color: #111111;
+  padding: 20px;
+  line-height: 2;
+  color: #ffffff;
+}
+
+#perguntas-frequentes strong {
+  color: #ed145b;
+}
+
+/* Customização do Accordion Bootstrap */
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+/* Estilos para os itens do Accordion Bootstrap */
+.accordion-button {
+  background-color: #1c2022 !important;
+}
+
+.accordion-button:focus {
+  border: solid 0.5px #ffffff !important;
+}
+
+.accordion-item {
+  background-color: #1c2022 !important;
+  color: #ffffff !important;
+}

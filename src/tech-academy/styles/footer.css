@@ -1,0 +1,40 @@
+/* Estilos para o rodapé */
+footer {
+  background-color: #ff0156;
+}
+
+.rodape {
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.rodape p {
+  margin-bottom: 0px;
+  color: #ffffff;
+}
+
+.rodape img {
+  width: 150px;
+}
+
+.rodape a {
+  margin: 0 5px;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #ffffff;
+}
+
+@media (max-width: 600px) {
+  .rodape {
+    flex-direction: column;
+  }
+
+  .rodape div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}

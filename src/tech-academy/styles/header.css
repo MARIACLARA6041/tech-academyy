@@ -1,0 +1,23 @@
+.nav-item {
+  text-decoration: none;
+  color: #d5cdc8;
+  padding: 7px 5px;
+  margin-left: 5px;
+  border: transparent 0.3px solid;
+}
+
+.nav-item:hover {
+  color: #ffffff;
+}
+
+img {
+  border-radius: 3px;
+}
+
+@media (min-width: 1400px) {
+  .nav-item:hover {
+    color: #ed145b;
+    border: #ed145b 0.3px solid;
+    border-radius: 5px;
+  }
+}

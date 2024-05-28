@@ -1,0 +1,138 @@
+/* Reset de estilos para garantir consistência entre navegadores */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para a seção principal */
+.principal {
+  background-color: #1c2022;
+}
+
+/* Estilos para a seção topo */
+.topo {
+  height: 500px;
+  position: relative;
+}
+
+.topo h1 {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.topo img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  transition-delay: 3s;
+}
+
+/* Estilos para as seções de conteúdo */
+#quem-somos,
+#cursos,
+#depoimentos {
+  margin-top: 20px;
+  padding: 20px;
+  line-height: 2;
+  color: #ffffff;
+}
+
+#quem-somos strong,
+#depoimentos strong {
+  color: #ed145b;
+}
+
+/* Estilos para a seção de cursos */
+#cursos {
+  background-color: #1e0111;
+}
+
+.cursos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container h2 {
+  margin: 10px 0;
+}
+
+.cursos-card img {
+  object-fit: cover;
+}
+
+/* Estilos para os cards de cursos */
+.cursos-card {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cursos-card,
+.depoimentos-card {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cursos-card {
+  background-color: #2f031d;
+}
+
+.cursos-card:hover {
+  transform: 1;
+}
+
+.cursos-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cursos-card a {
+  background-color: #ed145b;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  padding: 7px 0;
+  border-radius: 5px;
+}
+
+.cursos-card a:hover {
+  background-color: #ff0156;
+}
+
+#depoimentos {
+  background-color: #1c2022;
+}
+
+/* Estilos para os cards de depoimentos */
+.depoimentos-card {
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.depoimentos-card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.depoimentos-card div {
+  padding: 20px;
+}
